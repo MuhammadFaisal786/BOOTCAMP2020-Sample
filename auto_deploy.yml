@@ -31,5 +31,3 @@ jobs:
       run: npm install --global surge|
     - name: deploying using surge
       run: surge ./ greedy-belief.surge.sh --token ${{ secrets.SURGE_TOKEN }}
-      
-{{
